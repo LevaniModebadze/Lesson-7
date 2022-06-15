@@ -1,0 +1,70 @@
+.main-image{
+	position: relative;
+	}
+.jungle{
+	width:100%;
+	}
+.Mowgli{
+	position: absolute;
+	width: 500px;
+	top: 500px;
+	right: 1900px;
+	animation: Mawgli-animation 1s infinite ;
+}
+.kaa{
+	position: absolute;
+	width: 500px;
+	top: 1200px;
+	left: 100px;
+	animation: kaa-animation 8s infinite alternate ;
+}
+.bagira{
+	position: absolute;
+	width: 600px;
+	top: 1000px;
+	left: 1500px;
+	animation: bagira-animation 3s infinite alternate;
+}
+.tiger{
+	position: absolute;
+	width: 900px;
+	top: 1050px;
+	right: 1100px;
+
+}
+.spider{
+	position: absolute;
+	width: 400px;
+	top: 500px;
+	right: 700px;
+animation: spider-animation 3s infinite alternate;
+}
+@keyframes Mawgli-animation{
+0%{transform: translatey(50px)}
+25%{transform:translatey(0px)}
+50%{transform:translatey(0px)}
+75%{transform:translatey(0px)}
+100%{transform:translatey(400px)}
+}
+@keyframes kaa-animation{
+	0%{ transform:translateX(100px) }
+	25%{transform:translateX(150px)}
+	50%{transform:translateX(250px)}
+	75%{transform:translateX(350px)}
+	100%{transform:translateX(900px)}
+}
+@keyframes bagira-animation{
+	0%{ transform:translateX(50px) }
+	25%{transform:translateX(150px)}
+	50%{transform:translateX(250px)}
+	75%{transform:translateX(350px)}
+	100%{transform:translateX(500px)}
+}
+@keyframes spider-animation{
+	0%{transform: translatey(50px)}
+    25%{transform:translatey(100px)}
+    50%{transform:translatey(150px)}
+    75%{transform:translatey(150px)}
+    100%{transform:translatey(200px)}
+}
+}
